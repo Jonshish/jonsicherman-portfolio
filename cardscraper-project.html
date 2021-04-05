@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio | Jon Sicherman</title>
+    <meta name="author" content="Jon Sicherman | Full Stack Developer">
+    <meta name="description" content="Jon Sicherman is a creative personal & portfolio template based on HTML, CSS and Javascript. You can use it for your personal resume, CV or your portfolio. It will help you to present your self even your Business & portfolio more smartly and easily. Nihory is written in valid and clean HTML & CSS3 code. It’s easy to customize">
+    <meta name="keywords" content="portfolio template, template for portfolio, portfolio template website, portfolio template indesign, portfolio template design, portfolio template free, portfolio template architecture, portfolio template for word, portfolio template for architecture, portfolio template bootstrap, portfolio template html, teaching portfolio template, portfolio template indesign free, cover page for portfolio template, portfolio template html free">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href=""/>
+
+    <!------------------ External CSS ------------------>
+    <link rel="stylesheet" href="style.css">
+
+    <!------------------ Box Icons ------------------>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!------------------------ Header starts from here ----------------------->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+
+            <div>
+                <a href="#" class="nav__logo">Jon Sicherman | Full Stack Developer</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+
+                <ul class="nav__list">
+                    <li class="nav__item"> <a href="index.html" class="nav__link active"> Go Home </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!------------------------ Header ends from here ----------------------->
+
+    <!------------------------ Body starts from here ----------------------->
+    <main class="l-main">
+        <!------------------- Home ------------------->
+        <section class="works section" id="works">
+            <span class="section-subtitle">My Portfolio</span>
+            <h2 class="section-title">Ebay Cardscraper Project</h2>
+                <span class="section-subtitle" style="color: red;"><strong>( UNDER DEVELOPMENT )</strong></span>
+            <div class="container">
+                <div class="project_row">
+                    <img src="/img/spider-1.jpg" title="Jon Sicherman" alt="Jon Sicherman" class="project__img__project">
+                    <img src="/img/spider-2.jpg" title="Jon Sicherman" alt="Jon Sicherman" class="project__img__project">
+                <div/>
+                
+            </div>
+            <div class="container" style="margin-top: 50px;">
+                <h2 class="section-title">About The Project</h2>
+                    <p class="project__text">
+                        This eBay spider API project is in production to become a website dedicated to housing a price tracker/database of recently sold NFL quarterback rookie sports cards. As a sportscard collector myself, I find a lot of enjoyment working on this project. I wanted to challenge myself and create my own API instead of implementing the one eBay has to offer. Future plans are to create a Django Rest API out of the backend data, and present it via a React/Redux App on the frontend.
+                    </p>
+                    <br>
+                    <br>
+                    <h4><strong>Technologies used - </strong> Python: Scrapy, Postgres SQL, Bootstrap, Javascript, ScrapingHub </h4>
+            </div>
+            <div class="container" style="margin-top: 100px;">
+                <h2 class="section-title">View Project</h2>
+                    <a href="https://github.com/Jonshish/cardscraper-spider" target="_blank" class="button">View Spider</a>
+                    <a href="https://github.com/Jonshish/cardscraper_project" target="_blank" class="button">View Code</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!------------------------ Body ends from here ----------------------->
+
+    <!------------------------ Footer starts from here ----------------------->
+    <footer class="footer section">
+        <div class="footer__container bd-grid">
+            <h1 class="footer__title">Jon Sicherman - Full Stack Developer</h1>
+
+            <div class="footer__social">
+                <!-- <a href="#" class="footer__link"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="footer__link"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="footer__link"><i class="bx bxl-linkedin"></i></a> -->
+            </div>
+            <p class="footer-copy">All rights reserved by jonsicherman.com - 2021</p>
+        </div>
+    </footer>
+    <!------------------------ Footer ends from here ----------------------->
+
+    <!------------------------- Javascript file ---------------------------->
+    <script src="script.js"></script>
+</body>
+</html>
