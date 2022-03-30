@@ -62,7 +62,7 @@
             <div class="home__container bd-grid">
                 <div class="home__data">
                     <div class="home__img">
-                        <img src="/img/jon.png" alt="Jonathan Sicherman" title="Jonathan Sicherman">
+                        <img src="img\jon.png" alt="Jonathan Sicherman" title="Jonathan Sicherman">
                     </div>
 
                     <h1 class="home__title">Jonathan Sicherman</h1>
@@ -73,7 +73,7 @@
                         <a href="https://github.com/Jonshish" target="_blank" class="home__social-link"><i class='bx bxl-github' ></i></a>
                     </div>
 
-                    <a href="/img/Jonathan_Sicherman_Resume_2021.pdf" download="Jon_Sicherman_Resume_2021" class="button home__button">Download Resume</a>
+                    <a id="downloadResume" href="img/Jon_Sicherman_CV_2022.pdf" class="button home__button" download>Download Resume</a>
                 </div>
             </div>
         </section>
@@ -149,9 +149,9 @@
             <div class="about__container bd-grid">
                 <div class="about__data">
                     <p class="about__description">
-                        Hey there! I'm a full stack python and javascript developer in the Greater New York City Area. I got my professional start doing web focused marketing work for small businesses and seed round startups. Being a tech guy at heart, it didn't take long for me to fall in love with learning to code throughout that process.
+                        Hey there! I'm a full stack developer in the Greater New York City Metro Area. Being a tech guy at heart, it didn't take long for me to fall in love with coding and seeing both my personal and professional projects come to life.
                     </p>
-                    <img src="/img/jon-about.png" alt="Nihory Berst" title="Nihory Berst" class="about__img">
+                    <img src="img/jon-about.png" class="about__img">
                 </div>
 
                 <div>
@@ -181,7 +181,7 @@
                             <i class='bx bxs-medal about__information-icon'></i>
                             <div>
                                 <span class="about__information-subtitle">5 Years</span>
-                                <span class="about__information-subtitle-small">Workplace Experience</span>
+                                <span class="about__information-subtitle-small">Developer Experience</span>
                             </div>
                         </div>
     
@@ -196,6 +196,8 @@
                         <div class="about__information-data">
                             <!-- <i class='bx bx-message about__information-icon'></i> -->
                             <div>
+                                <!-- <span class="about__information-subtitle">Support</span>
+                                <span class="about__information-subtitle-small">Online 24/7</span> -->
                             </div>
                         </div>
                     </div>
@@ -213,7 +215,7 @@
                     <h3 class="skills__subtitle">Frontend</h3>
 
                     <div class="skills__data">
-                        <span class="skills__name">Html / css</span>
+                        <span class="skills__name">Html / css / JSX</span>
                         <span class="skills__bar skills__html"></span>
                     </div>
 
@@ -223,12 +225,12 @@
                     </div>
 
                     <div class="skills__data">
-                        <span class="skills__name">React</span>
+                        <span class="skills__name">React / Redux</span>
                         <span class="skills__bar skills__react"></span>
                     </div>
 
                     <div class="skills__data">
-                        <span class="skills__name">Bootstrap</span>
+                        <span class="skills__name">Bootstrap / Material UI</span>
                         <span class="skills__bar skills__angular"></span>
                     </div>
                 </div>
@@ -252,7 +254,7 @@
                     </div>
 
                     <div class="skills__data">
-                        <span class="skills__name">Postgres SQL / MongoDB</span>
+                        <span class="skills__name">Postgres SQL / MongoDB / Firebase</span>
                         <span class="skills__bar skills__python"></span>
                     </div>
                 </div>
@@ -331,15 +333,15 @@
                 </div>
 
                 <div class="services__content">
-                    <i class="bx bx-pen service__icon"></i>
+                    <i class="bx bxs-megaphone service__icon"></i>
                     <h3 class="services__title">KPI Focused</h3>
                     <p class="services__description">Tracking key performance indicators is the way to drive user growth.</p>
                 </div>
 
                 <div class="services__content">
-                    <i class="bx bxs-megaphone service__icon"></i>
-                    <h3 class="services__title">Digital Marketing Focus</h3>
-                    <p class="services__description">Staying consistent with brand imagery and overall social presence.</p>
+                    <i class="bx bx-pen service__icon"></i>
+                    <h3 class="services__title">Design and Documentation</h3>
+                    <p class="services__description">Experience with building UML design diagrams and white papers during inital ideation of new features</p>
                 </div>
 
                 <div class="services__content">
@@ -350,14 +352,14 @@
 
                 <div class="services__content">
                     <i class="bx bx-network-chart service__icon"></i>
-                    <h3 class="services__title">Third Party APIs</h3>
-                    <p class="services__description">Ability to add website features through third-party API sources.</p>
+                    <h3 class="services__title">API Design and Integration</h3>
+                    <p class="services__description">Ability to design APIs and implement data throughout applications.</p>
                 </div>
 
                 <div class="services__content">
                     <i class="bx bx-cloud-upload service__icon"></i>
-                    <h3 class="services__title">Deployment</h3>
-                    <p class="services__description">Working with Github to deploy a website over Digital Ocean, Heroku, etc.</p>
+                    <h3 class="services__title">Cloud Development</h3>
+                    <p class="services__description">Experience with Git to deploy projects through CI/CD practices to various serverless databases.</p>
                 </div>
             </div>
         </section>
@@ -428,7 +430,7 @@
                 <a href="#" class="footer__link"><i class="bx bxl-twitter"></i></a>
                 <a href="#" class="footer__link"><i class="bx bxl-linkedin"></i></a> -->
             </div>
-            <p class="footer-copy">All rights reserved by jonsicherman.com - 2021</p>
+            <p class="footer-copy">All rights reserved by jonsicherman.com - 2022</p>
         </div>
     </footer>
     <!------------------------ Footer ends from here ----------------------->
@@ -437,3 +439,11 @@
     <script src="script.js"></script>
 </body>
 </html>
+
+<!-- <script>
+    var downloadResume = document.getElementById("downloadResume")
+    downloadResume.setAttribute(
+        "href",
+        "data:text/plain;charset=utf-8," + encodeURIComponent("/img/Jon_Sicherman_CV_2022.pdf")
+    )
+</script> -->
